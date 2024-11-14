@@ -1,0 +1,140 @@
+.mainTasksContainer{
+    width: 39.87rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6.12rem;
+}
+
+.tasksMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.divSeparacao{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.taskForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.taskForm input{
+    padding: 1rem;
+    border-radius: 8px;
+    width: 39.87rem;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    height: 3.37rem;
+    width: 100%;
+    border: 0;
+}
+
+.taskForm input:focus{
+    border: 1px solid var(--purple);
+}
+
+.taskForm button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    width: 5.62rem;
+    height: 3.25rem;
+    font-size: 0.87rem;
+    background: var(--blueDark);
+    border-radius: 8px;
+    border: 0;
+    color: var(--gray-100);
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.tasksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.87rem;
+}
+
+.tasksContainer p{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tasksContainer p span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    font-weight: bold;
+}
+
+.createdTasks{
+    color: var(--blue);
+}
+
+.doneTasks{
+    color: var(--purple);
+}
+
+.tasksContentMain{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.tasksContent{
+    display: flex;
+    justify-content: space-between;
+    background: var(--gray-500);
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 1rem;
+    border: 1px solid var(--gray-400);
+}
+
+
+.circle{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.checkCircle{
+    color: var(--gray-100);
+    background: var(--purple);
+
+}
+
+.tasksContent img{
+    cursor: pointer;
+    width: 30px;
+}
+
+.trash {
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.trashButton{
+    background: transparent;
+    border: none;
+}
+
+.paragraphTaskDone{
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    line-height: 140%;
+}
+
+.paragraphTaskNotDone{
+    color: var(--gray-300);
+    text-decoration: line-through;
+    font-size: 0.875rem;
+    line-height: 140%;
+}

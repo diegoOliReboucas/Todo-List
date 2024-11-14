@@ -1,0 +1,35 @@
+.tasksContentMain{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.tasksContent{
+    display: flex;
+    justify-content: space-between;
+    background: var(--gray-500);
+    border-radius: 8px;
+    padding: 1rem;
+    gap: 1rem;
+    border: 1px solid var(--gray-400);
+}
+
+.tasksContent p{
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    line-height: 140%;
+}
+
+.circle{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.checkCircle{
+    color: var(--gray-100);
+    background: var(--purple);
+}
+
+.trash {
+    color: var(--gray-300);
+}

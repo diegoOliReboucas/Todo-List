@@ -1,0 +1,23 @@
+.emptyTasksContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid var(--gray-400);
+    border-radius: 8px;
+    padding: 4rem 1.5rem;
+    gap: 1rem;
+}
+
+.Paragrafos{
+    line-height: 140%;
+}
+
+.paragrafoStrong{
+    color: var(--gray-300);
+    font-weight: bold;
+}
+
+.paragrafoThin{
+    color: var(--gray-300);
+}
